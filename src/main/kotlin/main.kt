@@ -7,6 +7,7 @@ fun main() {
     calcCommission(10_000, 100_000,"Maestro")
     calcCommission(10_000, card = "Visa")
     calcCommission(1_000, 100_000,"Мир")
+    calcCommission(100, card = "fake")
 }
 
 fun calcCommission(amount: Int, current: Int = 0, card: String = "Vk Pay"): Int {
